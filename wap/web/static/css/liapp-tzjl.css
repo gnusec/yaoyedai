@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+/*Author="hejingfa-2015.07.02"*/
+
+@import url(reset.css);
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+a:hover{ text-decoration:none;}
+/*投资记录与还款计划-begin*/
+.invest-list-likeapp-top{ width:100%; height:40px; background-color:#00bacf; position:relative;}
+.invest-list-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.invest-list-likeapp-top .dropdown-menu{ left:-51px; }
+.invest-list-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.invest-list-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.invest-list-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.invest-list-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.invest-list-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+/*header-over*/
+.liapp-tzjl{max-width:640px; min-width:320px; height:auto; margin:0 auto;}
+.liapp-tzjl .invest-list-likeapp-top{ width:100%; height:40px; background-color:#00bacf; position:relative;}
+.liapp-tzjl .invest-list-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+.liapp-tzjl{ width:100%; height:auto;}
+.liapp-tzjl .invest-parti-thle{ width:100%; height:auto; background-color:#fff; line-height:25px;  font-size:14px; color:#000; padding:10px;}
+.liapp-tzjl .invest-parti-thle p{ text-indent:2em;}
+.liapp-tzjl .jkxx-dyxq{ width:100%; HEIGHT:35px; line-height:35px; font-size:13px; color:#000; background-color:#f9f9f9;}
+.liapp-tzjl .hui{ width:100%; height:35px; line-height:35px; font-size:13px; color:#000; background-color:#f9f9f9; margin-top:-9px; margin-bottom:-9px;}
+.liapp-tzjl .hui2{ width:100%; height:3px;}
+.liapp-tzjl .hui ul li{ width:25%; height:35px; line-height:35px; text-align:center; font-size:13px; color:#000; float:left;}
+.liapp-tzjl .hui2 ul li{ width:25%; height:3px; float:left;  background-color:#00bacf;}
+.liapp-tzjl .hui2 ul .hou2{ display:none; margin-left:25%;}
+.liapp-tzjl .hui2 ul .hou33{ display:none; margin-left:50%;}
+.liapp-tzjl .bai{ width:100%; height:auto;   }
+.liapp-tzjl .bai a:hover{ text-decoration:none;}
+.liapp-tzjl .bai .tbjl{ width:100%; height:auto;  }
+.liapp-tzjl .bai .tbjl .waiyi{ width:100%; height:60px; border-bottom:1px solid #f9f9f9;}
+.liapp-tzjl .bai .tbjl table{width:100%; height:40px; margin-top:10px; }
+.liapp-tzjl .bai .tbjl table span{ display:inline-block; width:3%;}
+.liapp-tzjl .bai .tbjl table .td-qi{ width:48%;}
+.liapp-tzjl .bai .tbjl table .td-hou{ width:51%; text-align:right;}
+.liapp-tzjl .bai .tbjl table td{width:50%; height:25px; text-align:left; font-size:12px; line-height:25px; color:#a6a8a8; }
+.liapp-tzjl .bai .hkjh{ width:100%; height:auto; display:none;  }
+
+.liapp-tzjl .bai .hkjh .waiyi{ width:100%; height:60px; border-bottom:1px solid #f9f9f9;}
+.liapp-tzjl .bai .hkjh table{width:100%; height:40px; margin-top:10px; }
+.liapp-tzjl .bai .hkjh table span{ display:inline-block; width:3%;}
+.liapp-tzjl .bai .hkjh table .td-qi{ width:48%;}
+.liapp-tzjl .bai .hkjh table .td-hou{ width:51%; text-align:right;}
+.liapp-tzjl .bai .hkjh table td{width:50%; height:25px; text-align:left; font-size:12px; line-height:25px; color:#a6a8a8; }
+
+
+
+
+
+
+
+
+
+
+.liapp-tzjl .bai .hkjh2{ width:100%; height:auto; display:none;  }
+
+
+.liapp-tzjl .bai .hkjh2 .waiyi{ width:100%; height:60px; border-bottom:1px solid #f9f9f9;}
+.liapp-tzjl .bai .hkjh2 table{width:100%; height:40px; margin-top:10px; }
+.liapp-tzjl .bai .hkjh2 table span{ display:inline-block; width:3%;}
+.liapp-tzjl .bai .hkjh2 table .td-qi{ width:48%;}
+.liapp-tzjl .bai .hkjh2 table .td-hou{ width:51%; text-align:right;}
+.liapp-tzjl .bai .hkjh2 table td{width:50%; height:25px; text-align:left; font-size:12px; line-height:25px; color:#a6a8a8; }
+
+
+/*footer-begin*/
+.liapp-tzjl  .invest-list-likeapp-footer{  height:60px;border-top:1px solid #aeaeae;  position:fixed; z-index:300; background-color:#fff; width:100%;  margin:0 auto;}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx{ width:25%; height:60px; float:left;}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx li{ width:100%; text-align:center;}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i1{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao1.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i1:hover{ background:url(../images/appfocai-1.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i2{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao2.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i2:hover{ background:url(../images/appfocai-2.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i3{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao4.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i3:hover{ background:url(../images/appfocai-3.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i4{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao3.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .ding .i4:hover{ background:url(../images/appfocai-4.png);}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx .mo{ font-size:11px; line-height:18px;}
+.liapp-tzjl  .invest-list-likeapp-footer .xuanx a{ text-decoration:none;}
+/*footer-stop*/
+/*投资记录与还款计划-stop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 投标中的详情-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.liapp-tbzxq{max-width:640px; min-width:320px; height:auto; margin:0 auto; background-color:#fff;}
+/*header-begin*/
+.liapp-tbzxq .invest-list-likeapp-top{ width:100%; height:40px; background-color:#00bacf; position:relative;}
+.liapp-tbzxq .invest-list-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.liapp-tbzxq .invest-list-likeapp-top .dropdown-menu{ left:-51px; }
+.liapp-tbzxq .invest-list-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.liapp-tbzxq .invest-list-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.liapp-tbzxq .invest-list-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.liapp-tbzxq .invest-list-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.liapp-tbzxq .invest-list-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.liapp-tbzxq .invest-list-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.liapp-tbzxq .regis-one{ width:100%; height:35px; background-color:#fff; }
+.liapp-tbzxq .regis-two{ width:100%; height:35px; background-color:#fff; position:relative;}
+.liapp-tbzxq .regis-two .put-1{width:80%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-tbzxq .regis-two .reg-3{ position:absolute; width:25px; height:25px; top:5px; left:30px;}
+.liapp-tbzxq .regis-three{ width:100%; height:20px; background-color:#fff;}
+.liapp-tbzxq .regis-four{ width:100%; height:70px; background-color:#fff; position:relative;}
+.liapp-tbzxq .regis-five{ width:100%; min-height:100px; background-color:#fff; margin-top:30px;}
+.liapp-tbzxq .regis-four .reg-2{ position:absolute; width:25px; height:25px; top:5px; left:23px;}
+.liapp-tbzxq .regis-four .reg-1{ position:absolute; width:25px; height:25px; top:40px; left:23px;}
+.liapp-tbzxq .regis-four .put-2{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-tbzxq .regis-four .put-3{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-tbzxq .regis-five button{ width:88%; height:35px; text-align:center; line-height:35px; font-size:13px; color:#FFFFFF; border-radius:7px; background-color:#e35252; border:none; margin-left:6%;}
+.liapp-tbzxq .regis-five  ul{ margin-top:20px; margin-bottom:30px;}
+.liapp-tbzxq .regis-five  ul li{ width:80%; margin-left:10%; line-height:25px; color:#c2c2c2; font-size:11px;}
+.liapp-tbzxq .regis-four div{ width:75%;height:35px; margin-left:53px;font-size:12px; color:#717171;}
+.liapp-tbzxq .regis-four div .sp-le{ float:left; width:36%; text-align:left; line-height:35px; margin-left:2%;}
+.liapp-tbzxq .regis-four div .sp-ri{ float:right; width:60%; text-align:right; line-height:35px;}
+.liapp-tbzxq .regis-four div .sp-ri a{ color:#A8AAA7; text-decoration:none;}
+/*footer-begin*/
+.liapp-tbzxq .invest-list-likeapp-footer{  height:60px;border-top:1px solid #aeaeae;  position:fixed; z-index:300; background-color:#fff; width:100%;  margin:0 auto;}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx{ width:25%; height:60px; float:left;}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx li{ width:100%; text-align:center;}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i1{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao1.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i1:hover{ background:url(../images/appfocai-1.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i2{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao2.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i2:hover{ background:url(../images/appfocai-2.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i3{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao4.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i3:hover{ background:url(../images/appfocai-3.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i4{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao3.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .ding .i4:hover{ background:url(../images/appfocai-4.png);}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx .mo{ font-size:11px; line-height:18px;}
+.liapp-tbzxq .invest-list-likeapp-footer .xuanx a{ text-decoration:none;}
+/*footer-stop*/
+/* 投标中的详情-stop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 还款中的详情-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.liapp-hkzxq{max-width:640px; min-width:320px; height:auto; margin:0 auto; background-color:#fff;}
+/*header-begin*/
+.liapp-hkzxq .invest-list-likeapp-top{ width:100%; height:40px; background-color:#00bacf; position:relative;}
+.liapp-hkzxq .invest-list-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.liapp-hkzxq .invest-list-likeapp-top .dropdown-menu{ left:-51px; }
+.liapp-hkzxq .invest-list-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.liapp-hkzxq .invest-list-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.liapp-hkzxq .invest-list-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.liapp-hkzxq .invest-list-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.liapp-hkzxq .invest-list-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.liapp-hkzxq .invest-list-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.liapp-hkzxq .regis-one{ width:100%; height:35px; background-color:#fff; }
+.liapp-hkzxq .regis-two{ width:100%; height:35px; background-color:#fff; position:relative;}
+.liapp-hkzxq .regis-two .put-1{width:80%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-hkzxq .regis-two .reg-3{ position:absolute; width:25px; height:25px; top:5px; left:30px;}
+.liapp-hkzxq .regis-three{ width:100%; height:20px; background-color:#fff;}
+.liapp-hkzxq .regis-four{ width:100%; height:70px; background-color:#fff; position:relative;}
+.liapp-hkzxq .regis-five{ width:100%; min-height:100px; background-color:#fff; margin-top:30px;}
+.liapp-hkzxq .regis-four .reg-2{ position:absolute; width:25px; height:25px; top:5px; left:23px;}
+.liapp-hkzxq .regis-four .reg-1{ position:absolute; width:25px; height:25px; top:40px; left:23px;}
+.liapp-hkzxq .regis-four .put-2{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-hkzxq .regis-four .put-3{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-hkzxq .regis-five button{ width:88%; height:35px; text-align:center; line-height:35px; font-size:13px; color:#FFFFFF; border-radius:7px; background-color:#e35252; border:none; margin-left:6%;}
+.liapp-hkzxq .regis-five  ul{ margin-top:20px; margin-bottom:30px;}
+.liapp-hkzxq .regis-five  ul li{ width:80%; margin-left:10%; line-height:25px; color:#c2c2c2; font-size:11px;}
+.liapp-hkzxq .regis-four div{ width:75%;height:35px; margin-left:53px;font-size:12px; color:#717171;}
+.liapp-hkzxq .regis-four div .sp-le{ float:left; width:36%; text-align:left; line-height:35px; margin-left:2%;}
+.liapp-hkzxq .regis-four div .sp-ri{ float:right; width:60%; text-align:right; line-height:35px;}
+.liapp-hkzxq .regis-four div .sp-ri a{ color:#A8AAA7; text-decoration:none;}
+/*footer-begin*/
+.liapp-hkzxq .invest-list-likeapp-footer{  height:60px;border-top:1px solid #aeaeae;  position:fixed; z-index:300; background-color:#fff; width:100%;  margin:0 auto;}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx{ width:25%; height:60px; float:left;}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx li{ width:100%; text-align:center;}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i1{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao1.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i1:hover{ background:url(../images/appfocai-1.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i2{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao2.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i2:hover{ background:url(../images/appfocai-2.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i3{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao4.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i3:hover{ background:url(../images/appfocai-3.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i4{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao3.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .ding .i4:hover{ background:url(../images/appfocai-4.png);}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx .mo{ font-size:11px; line-height:18px;}
+.liapp-hkzxq .invest-list-likeapp-footer .xuanx a{ text-decoration:none;}
+/*footer-stop*/
+/* 还款中的详情-stop*/
+
+
+
+
+
+
+/* 已还款的详情-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.liapp-yhkxq{max-width:640px; min-width:320px; height:auto; margin:0 auto; background-color:#fff;}
+/*header-begin*/
+.liapp-yhkxq .invest-list-likeapp-top{ width:100%; height:40px; background-color:#00bacf; position:relative;}
+.liapp-yhkxq .invest-list-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.liapp-yhkxq .invest-list-likeapp-top .dropdown-menu{ left:-51px; }
+.liapp-yhkxq .invest-list-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.liapp-yhkxq .invest-list-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.liapp-yhkxq .invest-list-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.liapp-yhkxq .invest-list-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.liapp-yhkxq .invest-list-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.liapp-yhkxq .invest-list-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.liapp-yhkxq .regis-one{ width:100%; height:35px; background-color:#fff; }
+.liapp-yhkxq .regis-two{ width:100%; height:35px; background-color:#fff; position:relative;}
+.liapp-yhkxq .regis-two .put-1{width:80%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-yhkxq .regis-two .reg-3{ position:absolute; width:25px; height:25px; top:5px; left:30px;}
+.liapp-yhkxq .regis-three{ width:100%; height:20px; background-color:#fff;}
+.liapp-yhkxq .regis-four{ width:100%; height:70px; background-color:#fff; position:relative;}
+.liapp-yhkxq .regis-five{ width:100%; min-height:100px; background-color:#fff; margin-top:30px;}
+.liapp-yhkxq .regis-four .reg-2{ position:absolute; width:25px; height:25px; top:5px; left:23px;}
+.liapp-yhkxq .regis-four .reg-1{ position:absolute; width:25px; height:25px; top:40px; left:23px;}
+.liapp-yhkxq .regis-four .put-2{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-yhkxq .regis-four .put-3{width:75%; height:35px; margin-left:60px; border-color:#fff;    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset; font-size:12px; color:#717171;}
+.liapp-yhkxq .regis-five button{ width:88%; height:35px; text-align:center; line-height:35px; font-size:13px; color:#FFFFFF; border-radius:7px; background-color:#e35252; border:none; margin-left:6%;}
+.liapp-yhkxq .regis-five  ul{ margin-top:20px; margin-bottom:30px;}
+.liapp-yhkxq .regis-five  ul li{ width:80%; margin-left:10%; line-height:25px; color:#c2c2c2; font-size:11px;}
+.liapp-yhkxq .regis-four div{ width:75%;height:35px; margin-left:53px;font-size:12px; color:#717171;}
+.liapp-yhkxq .regis-four div .sp-le{ float:left; width:36%; text-align:left; line-height:35px; margin-left:2%;}
+.liapp-yhkxq .regis-four div .sp-ri{ float:right; width:60%; text-align:right; line-height:35px;}
+.liapp-yhkxq .regis-four div .sp-ri a{ color:#A8AAA7; text-decoration:none;}
+/*footer-begin*/
+.liapp-yhkxq .invest-list-likeapp-footer{  height:60px;border-top:1px solid #aeaeae;  position:fixed; z-index:300; background-color:#fff; width:100%;  margin:0 auto;}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx{ width:25%; height:60px; float:left;}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx li{ width:100%; text-align:center;}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i1{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao1.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i1:hover{ background:url(../images/appfocai-1.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i2{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao2.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i2:hover{ background:url(../images/appfocai-2.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i3{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao4.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i3:hover{ background:url(../images/appfocai-3.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i4{ width:25px; height:25px; display:inline-block; margin-top:10px; background:url(../images/appfp-xiao3.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .ding .i4:hover{ background:url(../images/appfocai-4.png);}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx .mo{ font-size:11px; line-height:18px;}
+.liapp-yhkxq .invest-list-likeapp-footer .xuanx a{ text-decoration:none;}
+/*footer-stop*/
+/* 已还款的详情-stop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

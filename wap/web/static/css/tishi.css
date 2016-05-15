@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/*Author="hejingfa-2015.07.02"*/
+
+@import url(reset.css);
+
+
+
+
+
+
+
+
+/* ������Ϣ-begin*/
+*{font-family:Microsoft Yahei; /* color:#FF931E */; text-decoration:none}
+.liapp-zzc{max-width:640px; min-width:320px; height:auto; margin:0 auto; background-color:#fff;}
+ 
+.zzc-liapp{ background-color:#a2a2a2;  position:fixed; z-index:300;  top:0px; left:0px;  display:none; opacity:0.4;}
+.zzc-main{ color:#000; display:none; background-color:#FFFFFF; position:fixed; z-index:4000; width:86%; /* height:200px; */ left:7%; top:150px; border-radius:8px; overflow:hidden;}
+.zzc-main .zzc-top{ width:100%; height:40PX; background-color:#f9f9f9; position:relative;}
+.zzc-main .zzc-top .sp-1{ position:absolute; top:10px; left:20px; font-size:14px; color:#000;} 
+.zzc-main .zzc-top .sp-2{ position:absolute; top:14px; right:12px; font-size:16px; color:#e35252; cursor:pointer;}  
+.zzc-main  .zzc-cont{ width:100%; height:auto;margin-bottom:10px;}
+.zzc-main  .zzc-cont p{ width:80%; height:auto; margin-top:15px; text-align:left; line-height:20px; font-size:12px; color:#000; margin-left:10%;}
+.zzc-main  .zzc-cont button{ width:80%; height:30px; text-align:center; line-height:30px; font-size:13px; color:#fff; background-color:#e35252; margin-left:10%; margin-top:18px;margin-bottom:15px; border:1px solid #e35252; border-radius:8px; cursor:pointer;}
+
+
+  /*  实名认证确定提示 */
+ .realnameprompt{ background-color:#a2a2a2;  position:fixed; z-index:300;  top:0px; left:0px;  display:none; opacity:0.9;} 
+ .realnamecontent{  color:#000 ; display:none; background-color:#FFFFFF; position:fixed; z-index:4000; left:20px;right:20px; top:20px;bottom:20px;  overflow:hidden;padding:20px 10px;}
+ .realnamecontent button{width:90%; height:30px; text-align:center; line-height:30px; font-size:13px; color:#fff; background-color:#e35252; margin-left:5%; margin-top:60px;margin-bottom:30px; border:1px solid #e35252; border-radius:8px; cursor:pointer;}
+ .realnamecontent h1{font-weight:900;}

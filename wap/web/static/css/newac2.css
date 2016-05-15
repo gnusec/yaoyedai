@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+/*Author="hejingfa-2015.07.02"*/
+
+@import url(reset.css);
+
+
+
+
+
+
+
+/* ÑûÇëºÃÓÑ-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.newac21{max-width:640px; min-width:320px; height:auto; margin:0 auto;}
+/*header-begin*/
+.newac21 .invite-fri-likeapp-top{ width:100%; height:40px; background-color:#a83434; position:relative;}
+.newac21 .invite-fri-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.newac21 .invite-fri-likeapp-top .dropdown-menu{ left:-51px; }
+.newac21 .invite-fri-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.newac21 .invite-fri-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.newac21 .invite-fri-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.newac21 .invite-fri-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.newac21 .invite-fri-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.newac21 .invite-fri-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.newac21 .newact-main{ width:100%; }
+.newac21 .newact-main .on-le{ width:100%; height:100px; border-bottom:1px solid #f2f2f2; }
+.newac21 .newact-main .tw-le{ width:100%; height:160px; margin-bottom:10px; }
+.newac21 .newact-main .on-le .but-some{ width:90%; margin-left:5%; border-radius:7px; float:left; margin-top:27px; overflow:hidden; }
+.newac21 .newact-main .on-le .but-some button{ width:50%;float:left; height:45px; background-color:#333; line-height:45px; text-align:center; font-size:13px; color:#FFFFFF;border:1px solid #333}
+.newac21 .newact-main .on-le .but-some button img{ width:70%; vertical-align:middle;margin:0 auto;}
+.newac21 .newact-main .tw-le ul li{ width:90%; margin-left:5%;  line-height:20px; font-size:12px; margin-top:7px; color:#999;}
+.newac21 .newact-main .tw-le .li2{ font-size:14px; color:#333;}
+.newac21 .newact-main .thr-le{ width:100%; height:120px;  background-color:#f2f2f2;}
+.newac21 .newact-main .thr-le button{ width:70%; height:35px; background-color:#eb6542; line-height:35px; text-align:center; font-size:13px; color:#FFFFFF; border:1px solid #eb6542; margin-top:17px; margin-left:15%; border-radius:7px; }
+.newac21 .newact-main .fu-le{ width:100%; height:120px;  }
+.newac21 .newact-main .fu-le .p1{ width:100%; text-align:center;  line-height:40px; height:35px; font-size:13px; color:#333;}
+.newac21 .newact-main .fu-le .p2{ width:90%;  line-height:25px; font-size:12px; color:#999; text-indent:2em; margin-left:5%;} 
+
+
+
+
+
+
+
+
+
+
+/* ÑûÇëºÃÓÑ-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.newac22{max-width:640px; min-width:320px; height:auto; margin:0 auto;}
+/*header-begin*/
+.newac22 .invite-fri-likeapp-top{ width:100%; height:40px; background-color:#a83434; position:relative;}
+.newac22 .invite-fri-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.newac22 .invite-fri-likeapp-top .dropdown-menu{ left:-51px; }
+.newac22 .invite-fri-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.newac22 .invite-fri-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.newac22 .invite-fri-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.newac22 .invite-fri-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.newac22 .invite-fri-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.newac22 .invite-fri-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.newac22 .newact-main{ width:100%; }
+
+.newac22 .newact-main .le-1{ width:100%;}
+.newac22 .newact-main .le-1 img{ width:100%;}
+
+.newac22 .newact-main .le-2{ width:100%; height:90px; background-color:#f9f1cd;} 
+.newac22 .newact-main .le-2 button{ width:50%; margin-left:25%;border-radius:7px; height:50px; line-height:20px; color:#fff; font-size:18px; margin-top:15px;background-color:#ed1c24; border:1px solid #ed1c24;}
+.newac22 .newact-main .le-2 button b{ color:#fff;}
+.newac22 .newact-main .three-le{ width:90%; margin-left:5%; margin-top:15px; border:1px solid #f9f9f9; border-radius:7px; overflow:hidden;}
+
+
+.newac22 .newact-main .three-le .top{ width:100%; height:35px; line-height:35px; text-align:center; font-size:14px; color:#e35252; background-color:#e6e6e6;}
+.newac22 .newact-main .three-le .te{ width:100%; border-bottom:1px solid #f9f9f9;}
+.newac22 .newact-main .three-le .te img{ width:100%;}
+.newac22 .newact-main .three-le  p{ width:90%; margin-left:5%; line-height:20px; font-size:12px;}
+.newac22 .newact-main .top2{ width:100%; height:50px; line-height:50px; text-align:center; font-size:16px; color:#e35252; }
+
+
+.newac22 .newact-main .top3{ width:84%;  line-height:19px; text-indent:2em; font-size:12px; color:#808080; margin-left:7%; }
+
+.newac22 .newact-main .forr{ width:100%;}
+.newac22 .newact-main .forr img{ width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ÑûÇëºÃÓÑ-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.newac23{max-width:640px; min-width:320px; height:auto; margin:0 auto;}
+/*header-begin*/
+.newac23 .invite-fri-likeapp-top{ width:100%; height:40px; background-color:#a83434; position:relative;}
+.newac23 .invite-fri-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.newac23 .invite-fri-likeapp-top .dropdown-menu{ left:-51px; }
+.newac23 .invite-fri-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.newac23 .invite-fri-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.newac23 .invite-fri-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.newac23 .invite-fri-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.newac23 .invite-fri-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.newac23 .invite-fri-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+/*header-over*/
+.newac23 .newact-main{ width:100%; }
+.newac23 .newact-main .on-le{ width:100%; height:100px; border-bottom:1px solid #f2f2f2; }
+.newac23 .newact-main .tw-le{ width:100%; padding:15px; font-size:12px;  border-bottom:1px solid #f9f9f9}
+.newac23 .newact-main .on-le .but-some{ width:90%; margin-left:5%; border-radius:7px; float:left; margin-top:27px; overflow:hidden; }
+.newac23 .newact-main .on-le .but-some button{ width:50%;float:left; height:45px; background-color:#333; line-height:45px; text-align:center; font-size:13px; color:#FFFFFF;border:1px solid #333}
+.newac23 .newact-main .on-le .but-some button img{ width:70%; vertical-align:middle;margin:0 auto;}
+.newac23 .newact-main .tw-le ul li{ width:90%; margin-left:5%;  line-height:20px; font-size:12px; margin-top:7px; color:#999;}
+.newac23 .newact-main .tw-le .li2{ font-size:14px; color:#333;}
+.newac23 .newact-main .thr-le{ width:100%; height:80px;  background-color:#fff;}
+.newac23 .newact-main .thr-le button{ width:70%; height:35px; background-color:#eb6542; line-height:35px; text-align:center; font-size:13px; color:#FFFFFF; border:1px solid #eb6542; margin-top:17px; margin-left:15%; border-radius:7px; }
+.newac23 .newact-main .fu-le{ width:100%; height:120px;  }
+.newac23 .newact-main .fu-le .p1{ width:100%; text-align:center;  line-height:40px; height:35px; font-size:13px; color:#333;}
+.newac23 .newact-main .fu-le .p2{ width:90%;  line-height:25px; font-size:12px; color:#999; text-indent:2em; margin-left:5%;} 
+
+.newac23 .newact-main .xinz{ width:100%; height:55px; }
+.newac23 .newact-main .xinz button{ width:50%; height:55px; background-color:#f2f2f2; line-height:55px;  font-size:17px; color:#FFFFFF; border:1px solid #f2f2f2;}
+.newac23 .newact-main .xinz button img{ width:94%; vertical-align:middle; margin:0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newac21 #but{ width:100%; height:35px; background-color:#eb6542; line-height:35px; text-align:center; font-size:17px; color:#FFFFFF; border:1px solid #eb6542; margin-top:15px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

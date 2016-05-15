@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+/*Author="hejingfa-2015.07.02"*/
+
+@import url(reset.css);
+
+
+
+
+/* ´ý»¹¿î-begin*/
+*{font-family:Microsoft Yahei; color:#a8aaa7; text-decoration:none}
+.hyztj2{max-width:640px; min-width:320px; height:auto; margin:0 auto; }
+/*header-begin*/
+.hyztj2 .invest-list-likeapp-top{ width:100%; height:40px; background-color:#a83434; position:relative;}
+.hyztj2 .invest-list-likeapp-top .dropdown{ position:absolute; right:8px; top:3px; }
+.hyztj2 .invest-list-likeapp-top .dropdown-menu{ left:-51px; }
+.hyztj2 .invest-list-likeapp-top .dropdown-toggle{ background-color:#00bacf; color:#fff;}
+.hyztj2 .invest-list-likeapp-top .dropdown-toggle .glyphicon-cog{ color:#fff; font-size:14px;}
+.hyztj2 .invest-list-likeapp-top .come-back{ color:#fff; font-size:14px; position:absolute; left:15px; top:10px;}
+.hyztj2 .invest-list-likeapp-top .come-back .glyphicon-chevron-left{ color:#fff;}
+.hyztj2 .invest-list-likeapp-top .come-back a{ color:#fff; text-decoration:none;}
+.hyztj2 .invest-list-likeapp-top em{ display:inline-block; text-align:center; font-size:14px; color:#fff; width:100%; height:40px; position:absolute; line-height:40px;}
+
+.hyztj2 .search{ width:100%; height:40px; background-color:#fff;}
+.hyztj2 .search .star-input{width:35%;height:40px; float:left;}
+.hyztj2 .search .with{width:10%;height:40px; float:left; text-align:center; line-height:40px; font-size:12px; color:#000}
+.hyztj2 .search .stop-input{width:35%;height:40px; float:left;}
+.hyztj2 .search .search-but{width:20%;height:40px; float:left;}
+.hyztj2 .search input{ width:90%; margin-left:5%; margin-top:7px; border:1px solid #ccc; height:25px;}
+.hyztj2 .search button{width:94%;height: 25px;text-align: center;color: #FFF;font-size: 12px;line-height:25px;background-color: #E35152;border:1px solid #E35152; margin-top:7px;margin-right:6%;}
+
+.hyztj2 .content{ width:100%; height:105px; background-color:#f7f7f7;border-top:1px solid #ccc;}
+.hyztj2 .content .level-one{ width:100%; height:35px; border-bottom:1px solid #ccc; position:relative;}
+.hyztj2 .content .level-one .left{ text-align:left; width:40%; color: #e35252;font-size:12px;line-height:35px;float:left; margin-left:40px;}
+.hyztj2 .content .level-one .right{ text-align:right; width:40%; color: #e35252;font-size:12px;line-height:35px; padding-right:10px;float:right;}
+.hyztj2 .content .level-one img{ width:21px; position:absolute; left:10px; top:8px;}
+
+
+.hyztj2 .noname{ width:100%; height:35px; background-color:#ed6444; text-align:left; line-height:35px; font-size:12px; color:#fff; padding-left:42px; margin-top:7px; margin-bottom:7px;}
+
+.hyztj2 table{ width:100%;}
+.hyztj2 table tr{ height:35px;}
+.hyztj2 table td{ text-align:center; line-height:35px; font-size:11PX; COLOR:#E35252; background-color:#F7F7F7; width:33.33%}
+.hyztj2 .biaoti td{ border-bottom:1px solid #e35252;}
+
+
+
+
+
+
+
+
+
+
+
+
